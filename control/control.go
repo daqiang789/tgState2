@@ -175,9 +175,9 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	<html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Telegram图床</title>
-		<meta name="keywords" content="telegram图床,tg图床,免费图床,永久图床,图片外链,免费图片外链,纸飞机图床,电报图床" />
-		<meta name="description" content="telegram图床,tg图床,免费图床,永久图床,图片外链,免费图片外链,纸飞机图床,电报图床" />
+		<title>猫头哥专用图床</title>
+		<meta name="keywords" content="免费图床,永久图床,图片外链,免费图片外链" />
+		<meta name="description" content="免费图床,永久图床,图片外链,免费图片外链" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<style>
 			#uploadButton,
@@ -270,7 +270,7 @@ func Index(w http.ResponseWriter, r *http.Request) {
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
-		<h1>上传图片到 Telegram</h1>
+		<h1>上传图片到 猫头哥图床系统</h1>
 		<label for="uploadFile" id="uploadFileLabel" class="custom-file-label">选择文件</label>
 		<input type="file" name="image" id="uploadFile" accept=".jpg, .jpeg, .png" class="custom-file-input">
 		<button id="uploadButton">上传</button>
